@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Saumil</h1>
-<h3 align="center">An experienced, professional programmer and open-source enthusiast. I've been actively engaged on GitHub since 2011, continuously building and contributing to a diverse range of projects. With 59 public repositories and contributions to 28 repositories, my GitHub activity reflects my passion for coding and my desire to expand my knowledge in various programming languages and domains.</h3>
+<h3 align="center">👨🏽‍💻An experienced, professional programmer and open-source enthusiast</h3>
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=saumilp&label=Profile%20views&color=0e75b6&style=flat" alt="saumilp" /> </p>-->
 
-- 🔭 I’m currently working on something cool :)
+- 🔭 I’m currently working on something cool 😉
 
 - 🌱 I’m currently learning **Flutter, React and Go**
 
-- 📝 I regularly write articles on [my site](https://saumilp.github.io)
+- 📝 I write articles [here](https://saumilp.github.io)
 
 - 💬 Ask me about **Java, Spring framework and Rust**
 
@@ -17,8 +17,8 @@
 <p align="left">
 <a href="https://twitter.com/saumilp10" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="saumilp10" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/saumil-p-13b72219/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="saumil-p-13b72219" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/1114718" alt="1114718" height="30" width="40" >
-</a>
+<a src="" href="https://stackoverflow.com/users/1114718" alt="1114718" height="30" width="40" ></a>
+<a href="mailto:email2saumil2024@gmail.com" alt="email" height="30" width="40" >📧</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -30,4 +30,3 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saumilp&" alt="saumilp" /></p>
 
-<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=saumilp" alt="saumilp" /></a> </p> -->
