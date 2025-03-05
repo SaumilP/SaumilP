@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Saumil</h1>
 <h3 align="center">👨🏽‍💻An experienced, professional programmer and open-source enthusiast</h3>
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=saumilp&label=Profile%20views&color=0e75b6&style=flat" alt="saumilp" /> </p>-->
-
 - 🔭 I’m currently working on something cool 😉
 
 - 🌱 I’m currently learning **Flutter, React and Go**
@@ -29,4 +27,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=saumilp&show_icons=true&locale=en" alt="saumilp" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saumilp&" alt="saumilp" /></p>
-
