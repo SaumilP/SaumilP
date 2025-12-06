@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Technocrat+%7C+Cloud+%26+Backend+%26+Web+Dev;Building+tools+that+help+engineers+work+smarter" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=900&lines=Software%20Engineering%20Enthusiast%20%7C%20Cloud%20%26%20Backend%20%26%20Web%20Dev;Building%20tools%20that%20help%20engineers%20work%20smarter" alt="Typing SVG" />
 </p>
 
 ---
