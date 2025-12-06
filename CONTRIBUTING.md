@@ -1,4 +1,4 @@
-# Contributing & Automation Guide for Saumil's GitHub Profile
+# Contributing & Automation Guide
 
 Welcome!
 

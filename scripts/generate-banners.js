@@ -55,7 +55,7 @@ function drawBanner(theme, variantLabel) {
   ctx.font = 'bold 52px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
   ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
-  ctx.fillText('Saumil — Tinkerer', 60, 115);
+  ctx.fillText('Saumil — ', 60, 115);
 
   // Subtitle
   ctx.fillStyle = theme.subtitle;
