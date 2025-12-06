@@ -1,26 +1,126 @@
-<h1 align="center">Hi 👋, I'm Saumil</h1>
-<h3 align="center">👨🏽‍💻An experienced, professional programmer and open-source enthusiast</h3>
+<!--
+  GitHub Profile README for Saumil — Minimal + Slightly Enhanced
+-->
 
-- 🔭 I’m currently working on something cool 😉
-
-- 🌱 I’m currently learning **Flutter, React and Go**
-
-- 📝 I write articles [here](https://saumilp.github.io)
-
-- 💬 Ask me about **Java, Spring framework and Rust**
-
-- 📄 Know about my experiences [here](https://saumilp.github.io/about/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/saumilp10" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="saumilp10" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/saumil-p-13b72219/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="saumil-p-13b72219" height="30" width="40" /></a>
-<a target="blank" href="https://stackoverflow.com/users/1114718" alt="1114718" height="30" width="40" ></a>
-<a href="mailto:email2saumil2024@gmail.com" alt="email" height="30" width="40" >📧</a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Experienced%20Professional+%7C+Cloud+%26+Backend+%26+Web+Dev;Building+tools+that+help+engineers+work+smarter" alt="Typing SVG" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://gulpjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://lucene.apache.org/solr/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_solr/apache_solr-icon.svg" alt="solr" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://travis-ci.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travisci" width="40" height="40"/> </a> </p>
+<h1 align="center">Hi 👋 I’m Saumil</h1>
 
-![SaumilP's Stats](https://github-readme-stats.vercel.app/api?username=SaumilP&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![SaumilP's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SaumilP&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+<p align="center">
+  <a href="https://saumilp.github.io" target="_blank">🌐 Portfolio</a>
+</p>
+
+---
+
+I’m a technocrat who enjoys building practical tools, backends and small utilities that make software engineers’ lives easier.  
+Most days I’m exploring new ideas in cloud, backend and web-dev — and picking up something new while solving problems.
+
+---
+
+## 🔧 Tech Stack
+
+<div align="center">
+
+<!-- key languages -->
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+
+<br/>
+
+<!-- backend / infra -->
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
+
+<br/>
+
+<!-- tools -->
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+
+</div>
+
+---
+
+## 📂 Selected Projects
+
+- **[design-patterns](https://github.com/SaumilP/design-patterns)**  
+  A curated set of classic Java design pattern examples for reference, learning and reuse.
+
+- **[learning-spring-boot](https://github.com/SaumilP/learning-spring-boot)**  
+  Hands-on Spring Boot projects exploring practical Java backend patterns and features.
+
+- **[mastodon-toot-client](https://github.com/SaumilP/mastodon-toot-client)**  
+  Lightweight Rust bot that reads messages from a file and posts them to Mastodon automatically.
+
+- **[rust-examples](https://github.com/SaumilP/rust-examples)**  
+  Small Rust examples and experiments focused on learning fundamentals through code.
+
+- **[drawio_libraries](https://github.com/SaumilP/drawio_libraries)**  
+  Custom draw.io libraries to speed up architecture and diagram creation.
+
+- **[micro-apps](https://github.com/SaumilP/micro-apps)**  
+  Sample micro-backend applications demonstrating modular API design (mainly with Java).
+
+---
+
+<!-- ## 📈 GitHub Stats
+
+<p align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_dark&hide_border=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_light&hide_border=true" 
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_light&hide_border=true" alt="GitHub stats" />
+  </picture>
+</p> -->
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <!-- Trophy -->
+  <img src="https://github-profile-trophy.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
+</p>
+
+<p align="center">
+  <!-- Activity Graph -->
+  <picture>
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=tokyo-night&hide_border=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" 
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" />
+  </picture>
+</p>
+
+---
+
+## 🔭 Currently Exploring
+
+- Modern backend architectures (microservices, modular monoliths)  
+- Rust for tools and automation  
+- Cloud-native workflows with containers and CI/CD  
+- Clean code, testability and pragmatic design patterns  
+
+---
+
+## 📫 Connect
+
+<p align="center">
+  <a href="https://saumilp.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat&logo=githubpages&logoColor=white" alt="Website" />
+  </a>
+</p>
+

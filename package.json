@@ -1,0 +1,11 @@
+{
+  "name": "saumilp-profile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate:banner": "node scripts/generate-banner.js"
+  },
+  "devDependencies": {
+    "canvas": "^2.11.2"
+  }
+}
