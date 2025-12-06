@@ -55,7 +55,7 @@ function drawBanner(theme, variantLabel) {
   ctx.font = 'bold 52px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
   ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
-  ctx.fillText('Saumil — ', 60, 115);
+  ctx.fillText('Saumil — An experienced professional, tinkering in spare time', 60, 125);
 
   // Subtitle
   ctx.fillStyle = theme.subtitle;
@@ -66,7 +66,7 @@ function drawBanner(theme, variantLabel) {
   ctx.fillStyle = theme.accent2;
   ctx.font = '18px "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace';
   ctx.textAlign = 'right';
-  ctx.fillText('Building /apps that help engineers work smarter', WIDTH - 60, HEIGHT - 70);
+  ctx.fillText('Building tools/apps that help engineers work smarter', WIDTH - 60, HEIGHT - 70);
 
   // Variant label (tiny, bottom-left – optional)
   ctx.textAlign = 'left';
