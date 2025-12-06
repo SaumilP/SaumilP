@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "generate:banner": "node scripts/generate-banner.js"
-  },
+  "generate:banners": "node scripts/generate-banners.js",
+  "update:dashboard": "node scripts/update-dashboard.js"
+},
   "devDependencies": {
     "canvas": "^2.11.2"
   }

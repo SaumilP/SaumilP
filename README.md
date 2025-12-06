@@ -1,9 +1,14 @@
 <!--
-  GitHub Profile README for Saumil — Minimal + Slightly Enhanced
+  GitHub Profile README for Saumil — Final Merged Edition
 -->
 
+<!-- Light/Dark Auto Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Experienced%20Professional+%7C+Cloud+%26+Backend+%26+Web+Dev;Building+tools+that+help+engineers+work+smarter" alt="Typing SVG" />
+  <picture>
+    <source srcset="assets/profile-banner-dark.png" media="(prefers-color-scheme: dark)" />
+    <source srcset="assets/profile-banner-light.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="assets/profile-banner-light.png" alt="Saumil Profile Banner" />
+  </picture>
 </p>
 
 <h1 align="center">Hi 👋 I’m Saumil</h1>
@@ -12,10 +17,14 @@
   <a href="https://saumilp.github.io" target="_blank">🌐 Portfolio</a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Technocrat+%7C+Cloud+%26+Backend+%26+Web+Dev;Building+tools+that+help+engineers+work+smarter" alt="Typing SVG" />
+</p>
+
 ---
 
-I’m a technocrat who enjoys building practical tools, backends and small utilities that make software engineers’ lives easier.  
-Most days I’m exploring new ideas in cloud, backend and web-dev — and picking up something new while solving problems.
+I’m a software engineering enthusiast who enjoys building practical tools, backends, and small utilities that make software engineers’ lives easier.  
+Most days I’m exploring new ideas in cloud, backend, and web-dev — and picking up something new while solving problems.
 
 ---
 
@@ -24,35 +33,49 @@ Most days I’m exploring new ideas in cloud, backend and web-dev — and pickin
 <div align="center">
 
 <!-- key languages -->
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 
 <br/>
 
 <!-- backend / infra -->
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 
 <br/>
 
 <!-- tools -->
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 
 </div>
+
+---
+
+## 🧩 Skills Matrix
+
+| Category | Skills |
+|---------|--------|
+| **Languages** | Java, Rust, Python, TypeScript |
+| **Backend** | Spring Boot, REST APIs, Microservices, Messaging |
+| **Cloud & Infra** | AWS, Docker, Kubernetes, CI/CD |
+| **Databases** | PostgreSQL, Redis, MySQL, MongoDB |
+| **Frontend (basic)** | React, TypeScript tooling |
+| **Dev Tools** | Git, GitHub Actions, VS Code |
+| **Architectural Skills** | Design patterns, modular design, scalable backend patterns |
 
 ---
 
 ## 📂 Selected Projects
 
 - **[design-patterns](https://github.com/SaumilP/design-patterns)**  
-  A curated set of classic Java design pattern examples for reference, learning and reuse.
+  A curated set of classic Java design pattern examples for reference, learning, and reuse.
 
 - **[learning-spring-boot](https://github.com/SaumilP/learning-spring-boot)**  
   Hands-on Spring Boot projects exploring practical Java backend patterns and features.
@@ -71,29 +94,13 @@ Most days I’m exploring new ideas in cloud, backend and web-dev — and pickin
 
 ---
 
-<!-- ## 📈 GitHub Stats
-
-<p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_dark&hide_border=true" 
-      media="(prefers-color-scheme: dark)" />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_light&hide_border=true" 
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=github_light&hide_border=true" alt="GitHub stats" />
-  </picture>
-</p> -->
-
 ## 📈 GitHub Stats
 
 <p align="center">
-  <!-- Trophy -->
   <img src="https://github-profile-trophy.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
 </p>
 
 <p align="center">
-  <!-- Activity Graph -->
   <picture>
     <source 
       srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=tokyo-night&hide_border=true" 
@@ -107,12 +114,38 @@ Most days I’m exploring new ideas in cloud, backend and web-dev — and pickin
 
 ---
 
-## 🔭 Currently Exploring
+## 📝 Learning Notes (Click to expand)
 
-- Modern backend architectures (microservices, modular monoliths)  
-- Rust for tools and automation  
-- Cloud-native workflows with containers and CI/CD  
-- Clean code, testability and pragmatic design patterns  
+<details>
+<summary>View ongoing notes & experiments</summary>
+
+### 🌱 Currently Learning
+- Rust async patterns  
+- Advanced Spring Boot modular architecture  
+- Clean Architecture & DDD  
+- GitHub Actions automations  
+- Container networking & distributed systems basics  
+
+### 🧪 Experiments
+- CLI tools in Rust  
+- Simple bots & automation scripts  
+- Local-first workflows  
+- Improving backend performance patterns  
+
+</details>
+
+---
+
+## 🖥️ Now Operating On… (Developer Dashboard)
+
+<!-- DASHBOARD:START -->
+<!-- This section is auto-generated by .github/workflows/update-dashboard.yml -->
+| Metric | Value |
+|--------|-------|
+| 🚀 Repositories (public) | loading... |
+| 🌱 Recent Activity | loading... |
+| 🧪 Last Updated | loading... |
+<!-- DASHBOARD:END -->
 
 ---
 
@@ -120,7 +153,6 @@ Most days I’m exploring new ideas in cloud, backend and web-dev — and pickin
 
 <p align="center">
   <a href="https://saumilp.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat&logo=githubpages&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat-square&logo=githubpages&logoColor=white" alt="Website" />
   </a>
 </p>
-

@@ -1,55 +1,89 @@
-// scripts/generate-banner.js
-// Simple banner generator using node-canvas
+// scripts/generate-banners.js
+// Generates light + dark profile banners using node-canvas
 
-const { createCanvas, registerFont } = require('canvas');
+const { createCanvas } = require('canvas');
 const fs = require('fs');
 const path = require('path');
 
-const width = 1200;
-const height = 300;
+const WIDTH = 1200;
+const HEIGHT = 300;
 
-// Optional: register a custom font (if you add one in ./fonts folder)
-// registerFont(path.join(__dirname, 'fonts', 'FiraCode-Regular.ttf'), { family: 'Fira Code' });
+function ensureDir(p) {
+  fs.mkdirSync(p, { recursive: true });
+}
 
-const canvas = createCanvas(width, height);
-const ctx = canvas.getContext('2d');
+function saveCanvas(canvas, filePath) {
+  ensureDir(path.dirname(filePath));
+  const out = fs.createWriteStream(filePath);
+  const stream = canvas.createPNGStream();
+  stream.pipe(out);
+  out.on('finish', () => console.log('Generated:', filePath));
+}
 
-// Background - dark, subtle gradient-ish
-ctx.fillStyle = '#1a1b26'; // Tokyo Night base
-ctx.fillRect(0, 0, width, height);
+// Tokyo Night inspired
+const darkTheme = {
+  bg: '#1a1b26',
+  accent: '#7aa2f7',
+  accent2: '#9ece6a',
+  title: '#c0caf5',
+  subtitle: '#a9b1d6'
+};
 
-// Accent rectangle (simple shape)
-ctx.fillStyle = '#7aa2f7'; // Tokyo Night blue
-ctx.fillRect(0, height - 40, width, 40);
+// Light theme variant
+const lightTheme = {
+  bg: '#f5f5f7',
+  accent: '#2d63c8',
+  accent2: '#1a7f37',
+  title: '#111827',
+  subtitle: '#4b5563'
+};
 
-// Title text
-ctx.fillStyle = '#c0caf5';
-ctx.font = 'bold 52px sans-serif';
-ctx.textAlign = 'left';
-ctx.textBaseline = 'middle';
+function drawBanner(theme, variantLabel) {
+  const canvas = createCanvas(WIDTH, HEIGHT);
+  const ctx = canvas.getContext('2d');
 
-const title = 'Saumil — Experienced professional';
-ctx.fillText(title, 60, 120);
+  // Background
+  ctx.fillStyle = theme.bg;
+  ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-// Subtitle
-ctx.fillStyle = '#a9b1d6';
-ctx.font = '28px sans-serif';
-const subtitle = 'Cloud • Backend • Web Dev';
-ctx.fillText(subtitle, 60, 180);
+  // Accent strip
+  ctx.fillStyle = theme.accent;
+  ctx.fillRect(0, HEIGHT - 40, WIDTH, 40);
 
-// Small tagline bottom-right
-ctx.font = '18px monospace';
-ctx.fillStyle = '#9ece6a';
-const tagline = 'Building tools that help engineers work smarter';
-ctx.textAlign = 'right';
-ctx.fillText(tagline, width - 40, height - 60);
+  // Title
+  ctx.fillStyle = theme.title;
+  ctx.font = 'bold 52px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('Saumil — Tinkerer', 60, 115);
 
-// Save to file
-const outputPath = path.join(__dirname, '..', 'assets', 'profile-banner.png');
+  // Subtitle
+  ctx.fillStyle = theme.subtitle;
+  ctx.font = '28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+  ctx.fillText('Cloud · Backend · Web Dev', 60, 165);
 
-fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  // Tagline bottom-right
+  ctx.fillStyle = theme.accent2;
+  ctx.font = '18px "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace';
+  ctx.textAlign = 'right';
+  ctx.fillText('Building /apps that help engineers work smarter', WIDTH - 60, HEIGHT - 70);
 
-const out = fs.createWriteStream(outputPath);
-const stream = canvas.createPNGStream();
-stream.pipe(out);
-out.on('finish', () => console.log('Banner generated:', outputPath));
+  // Variant label (tiny, bottom-left – optional)
+  ctx.textAlign = 'left';
+  ctx.font = '14px system-ui';
+  ctx.fillStyle = theme.subtitle;
+  ctx.fillText(variantLabel, 20, HEIGHT - 15);
+
+  return canvas;
+}
+
+function main() {
+  const darkCanvas = drawBanner(darkTheme, 'dark');
+  const lightCanvas = drawBanner(lightTheme, 'light');
+
+  const assetsDir = path.join(__dirname, '..', 'assets');
+  saveCanvas(darkCanvas, path.join(assetsDir, 'profile-banner-dark.png'));
+  saveCanvas(lightCanvas, path.join(assetsDir, 'profile-banner-light.png'));
+}
+
+main();
