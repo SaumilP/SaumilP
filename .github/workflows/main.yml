@@ -1,0 +1,42 @@
+name: Update Developer Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # every Monday at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update dashboard section in README
+        env:
+          GH_DASHBOARD_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run update:dashboard
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md package-lock.json || true
+            git commit -m "chore: update developer dashboard"
+            git push
+          else
+            echo "No changes to commit"
+          fi
