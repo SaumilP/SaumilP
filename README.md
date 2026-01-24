@@ -97,7 +97,7 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
+  <img src="https://github-profile-trophy-kannan.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
 </p>
 
 <p align="center">
