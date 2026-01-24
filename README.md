@@ -114,6 +114,17 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 
 ---
 
+## 📊 Engineering Snapshot
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=onedark" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaumilP&layout=compact&langs_count=8&theme=onedark" height="165" />
+
+</div>
+
+---
+
 ## 📝 Learning Notes (Click to expand)
 
 <details>
