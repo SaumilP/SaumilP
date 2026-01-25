@@ -75,19 +75,19 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 ## 📂 Selected Projects
 
 - **[design-patterns](https://github.com/SaumilP/design-patterns)**  
-  A curated set of classic Java design pattern examples for reference, learning, and reuse.
+  A curated, production-oriented collection of **classic software design patterns implemented in Java**.
 
 - **[learning-spring-boot](https://github.com/SaumilP/learning-spring-boot)**  
   Hands-on Spring Boot projects exploring practical Java backend patterns and features.
 
 - **[mastodon-toot-client](https://github.com/SaumilP/mastodon-toot-client)**  
-  Lightweight Rust bot that reads messages from a file and posts them to Mastodon automatically.
+  A small, production-minded Rust CLI tool that reads dataset file, selects item, renders message and posts to a Mastodon instance.
 
 - **[rust-examples](https://github.com/SaumilP/rust-examples)**  
   Small Rust examples and experiments focused on learning fundamentals through code.
 
 - **[drawio_libraries](https://github.com/SaumilP/drawio_libraries)**  
-  Custom draw.io libraries to speed up architecture and diagram creation.
+  Draw.io architecture libraries catalog for engineers and architects - to be able to create **clear, consistent, and review-ready software architecture diagrams**.
 
 - **[micro-apps](https://github.com/SaumilP/micro-apps)**  
   Sample micro-backend applications demonstrating modular API design (mainly with Java).
