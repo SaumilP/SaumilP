@@ -77,11 +77,14 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 - **[design-patterns](https://github.com/SaumilP/design-patterns)**  
   A curated, production-oriented collection of **classic software design patterns implemented in Java**.
 
-- **[learning-spring-boot](https://github.com/SaumilP/learning-spring-boot)**  
+- **[Enterprise Spring Patterns & Recipes](https://github.com/SaumilP/enterprise-spring-patterns-and-recipes)**  
   Hands-on Spring Boot projects exploring practical Java backend patterns and features.
 
 - **[mastodon-toot-client](https://github.com/SaumilP/mastodon-toot-client)**  
   A small, production-minded Rust CLI tool that reads dataset file, selects item, renders message and posts to a Mastodon instance.
+
+- **[gh-yule-gitlog-rs](https://github.com/SaumilP/gh-yule-gitlog-rs)**  
+  A Github CLI extension that turns your terminal into a festive, animated Yule log based on your Github activity!
 
 - **[rust-examples](https://github.com/SaumilP/rust-examples)**  
   Small Rust examples and experiments focused on learning fundamentals through code.
