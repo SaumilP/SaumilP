@@ -89,7 +89,7 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 - **[rust-examples](https://github.com/SaumilP/rust-examples)**  
   Small Rust examples and experiments focused on learning fundamentals through code.
 
-- **[drawio_libraries](https://github.com/SaumilP/drawio_libraries)**  
+- **[Draw.io Architecture Libraries](https://github.com/SaumilP/drawio_libraries)**  
   Draw.io architecture libraries catalog for engineers and architects - to be able to create **clear, consistent, and review-ready software architecture diagrams**.
 
 - **[micro-apps](https://github.com/SaumilP/micro-apps)**  
