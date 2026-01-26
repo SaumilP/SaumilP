@@ -92,8 +92,8 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 - **[Draw.io Architecture Libraries](https://github.com/SaumilP/drawio_libraries)**  
   Draw.io architecture libraries catalog for engineers and architects - to be able to create **clear, consistent, and review-ready software architecture diagrams**.
 
-- **[micro-apps](https://github.com/SaumilP/micro-apps)**  
-  Sample micro-backend applications demonstrating modular API design (mainly with Java).
+- **[Spring Boot Starters](https://github.com/SaumilP/spring-boot-starters)**  
+  Platform-grade Spring Boot starters for scalable, governed service development.
 
 ---
 
