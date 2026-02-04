@@ -86,7 +86,7 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 - **[gh-yule-gitlog-rs](https://github.com/SaumilP/gh-yule-gitlog-rs)**  
   A Github CLI extension that turns your terminal into a festive, animated Yule log based on your Github activity!
 
-- **[rust-learning-lab](https://github.com/SaumilP/rust-learning-lab)**
+- **[rust-learning-lab](https://github.com/SaumilP/rust-learning-lab)**  
   Learn Rust from scratch with hands-on examples — designed for C/C++/Java/Python developers moving into safe systems programming.
 
 - **[Draw.io Architecture Libraries](https://github.com/SaumilP/drawio_libraries)**  
