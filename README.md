@@ -74,29 +74,120 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 
 ## 📂 Selected Projects
 
-- **[design-patterns](https://github.com/SaumilP/design-patterns)**  
-  A curated, production-oriented collection of **classic software design patterns implemented in Java**.
+A compact, GitHub-render-safe portfolio grid. Tags use `<kbd>` so they look good in both **light** and **dark** mode.
 
-- **[Enterprise Spring Patterns & Recipes](https://github.com/SaumilP/enterprise-spring-patterns-and-recipes)**  
-  Hands-on Spring Boot projects exploring practical Java backend patterns and features.
+<table width="100%">
+<tr>
 
-- **[mastodon-toot-client](https://github.com/SaumilP/mastodon-toot-client)**  
-  A small, production-minded Rust CLI tool that reads dataset file, selects item, renders message and posts to a Mastodon instance.
+<td width="33%" valign="top">
 
-- **[gh-yule-gitlog-rs](https://github.com/SaumilP/gh-yule-gitlog-rs)**  
-  A Github CLI extension that turns your terminal into a festive, animated Yule log based on your Github activity!
+<a href="https://github.com/SaumilP/design-patterns"><b style="font-size:16px;">🧩 design-patterns</b></a><br/>
+<kbd>Architecture</kbd> <kbd>Java</kbd> <kbd>Patterns</kbd>
 
-- **[rust-learning-lab](https://github.com/SaumilP/rust-learning-lab)**  
-  Learn Rust from scratch with hands-on examples — designed for C/C++/Java/Python developers moving into safe systems programming.
+<hr/>
 
-- **[Draw.io Architecture Libraries](https://github.com/SaumilP/drawio_libraries)**  
-  Draw.io architecture libraries catalog for engineers and architects - to be able to create **clear, consistent, and review-ready software architecture diagrams**.
+A production-oriented catalog of classic design patterns with enterprise-ready structure and extensibility guidance.
 
-- **[Spring Boot Starters](https://github.com/SaumilP/spring-boot-starters)**  
-  Platform-grade Spring Boot starters for scalable, governed service development.
+</td>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/enterprise-spring-patterns-and-recipes"><b style="font-size:16px;">☕ Spring Patterns & Recipes</b></a><br/>
+<kbd>Architecture</kbd> <kbd>Spring Boot</kbd> <kbd>Platform</kbd>
+
+<hr/>
+
+Hands-on backend patterns for resilience, modular design, observability, and production-grade integration strategies.
+
+</td>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/spring-boot-starters"><b style="font-size:16px;">🏗️ Spring Boot Starters</b></a><br/>
+<kbd>Governance</kbd> <kbd>Java</kbd> <kbd>Standards</kbd>
+
+<hr/>
+
+Platform-grade starters to standardize security, telemetry, error handling, and service scaffolding.
+
+</td>
+
+</tr>
+<tr>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/mastodon-toot-client"><b style="font-size:16px;">🦀 mastodon-toot-client</b></a><br/>
+<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>CLI</kbd>
+
+<hr/>
+
+Dataset-driven automation CLI that renders dynamic content and publishes posts to Mastodon via API orchestration.
+
+</td>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/gh-yule-gitlog-rs"><b style="font-size:16px;">🎄 gh-yule-gitlog-rs</b></a><br/>
+<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>gh-ext</kbd>
+
+<hr/>
+
+A GitHub CLI extension that turns repository activity into a festive, animated terminal experience.
+
+</td>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/changelog-gen"><b style="font-size:16px;">📝 changelog-gen</b></a><br/>
+<kbd>Release Engineering</kbd> <kbd>Rust</kbd> <kbd>SemVer</kbd>
+
+<hr/>
+
+Changelog & release-notes generator with Conventional Commits, GitHub enrichment, templating, and SemVer workflows.
+
+</td>
+
+</tr>
+<tr>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/rust-learning-lab"><b style="font-size:16px;">🧪 rust-learning-lab</b></a><br/>
+<kbd>Learning</kbd> <kbd>Rust</kbd> <kbd>Hands-on</kbd>
+
+<hr/>
+
+A structured learning lab for engineers moving into safe systems programming, async fundamentals, and performance thinking.
+
+</td>
+
+<td width="33%" valign="top">
+
+<a href="https://github.com/SaumilP/drawio_libraries"><b style="font-size:16px;">📐 Draw.io Architecture Libraries</b></a><br/>
+<kbd>Assets</kbd> <kbd>Architecture</kbd> <kbd>C4</kbd>
+
+<hr/>
+
+Diagram libraries for clear, consistent, review-ready architecture visuals (C4, cloud, and platform components).
+
+</td>
+
+<td width="33%" valign="top">
+
+<b style="font-size:16px;">🚀 Next Flagship</b><br/>
+<kbd>Platform</kbd> <kbd>Cloud-Native</kbd> <kbd>Reliability</kbd>
+
+<hr/>
+
+Upcoming modular platform showcasing modern architecture, observability, and deployment governance.
+
+</td>
+
+</tr>
+</table>
 
 ---
-
 ## 📈 GitHub Stats
 
 <p align="center">
@@ -121,8 +212,11 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=onedark" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaumilP&layout=compact&langs_count=8&theme=onedark" height="165" />
+<img src="https://gh-stats-plum-five.vercel.app/api/stats?username=SaumilP&theme=dark" />
+<img src="https://gh-stats-plum-five.vercel.app/api/languages?username=SaumilP&theme=dark" />
+
+<!-- <img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=onedark" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaumilP&layout=compact&langs_count=8&theme=onedark" height="165" /> -->
 
 </div>
 
