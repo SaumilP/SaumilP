@@ -212,11 +212,28 @@ Upcoming modular platform showcasing modern architecture, observability, and dep
 
 <div align="center">
 
-<img src="https://gh-stats-plum-five.vercel.app/api/stats?username=SaumilP&theme=dark" />
-<img src="https://gh-stats-plum-five.vercel.app/api/languages?username=SaumilP&theme=dark" />
+<!-- Weekly snapshots (served as static files from gh-stats) -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-dark.svg" media="(prefers-color-scheme: dark)" />
+  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-light.svg" alt="GitHub stats (weekly snapshot)" />
+</picture>
 
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=SaumilP&show_icons=true&theme=onedark" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaumilP&layout=compact&langs_count=8&theme=onedark" height="165" /> -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-dark.svg" media="(prefers-color-scheme: dark)" />
+  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-light.svg" alt="Top languages (weekly snapshot)" />
+</picture>
+
+<br/>
+
+<picture>
+  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-dark.svg" media="(prefers-color-scheme: dark)" />
+  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-light.svg" alt="Top repos (weekly snapshot)" />
+</picture>
+
+<picture>
+  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-dark.svg" media="(prefers-color-scheme: dark)" />
+  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-light.svg" alt="Contribution streak (weekly snapshot)" />
+</picture>
 
 </div>
 
