@@ -1,34 +1,89 @@
-<!--
-  GitHub Profile README for Saumil — Final Merged Edition
--->
-
-<!-- Light/Dark Auto Banner -->
-<p align="center">
+<!-- <p align="center">
   <picture>
     <source srcset="assets/profile-banner-dark.png" media="(prefers-color-scheme: dark)" />
     <source srcset="assets/profile-banner-light.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
     <img src="assets/profile-banner-light.png" alt="Saumil Profile Banner" />
   </picture>
-</p>
+</p> -->
 
 <h1 align="center">Hi 👋 I’m Saumil</h1>
+
+<p align="center">
+  <b>Software Architect • Distributed Systems • Platform Engineering</b>
+</p>
 
 <p align="center">
   <a href="https://saumilp.github.io" target="_blank">🌐 Portfolio</a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=900&lines=Software%20Engineering%20Enthusiast%20%7C%20Cloud%20%26%20Backend%20%26%20Web%20Dev;Building%20tools%20that%20help%20engineers%20work%20smarter" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=900&lines=Designing+scalable+software+systems;Architecture+patterns+and+engineering+tooling;Building+tools+that+help+developers+move+faster" />
 </p>
 
 ---
 
-I’m a software engineering enthusiast who enjoys building practical tools, backends, and small utilities that make software engineers’ lives easier.  
-Most days I’m exploring new ideas in cloud, backend, and web-dev — and picking up something new while solving problems.
+## About Me
+
+I’m a software architect who enjoys designing systems that stay understandable as they grow.
+
+Most of my work sits around backend platforms, distributed systems, and internal tooling. I’m particularly interested in the parts of software development that help teams work better: good architecture, clear patterns, automation, and developer-friendly platforms.
+
+Over time I’ve found that the real challenge in software isn’t just writing code — it’s making systems that teams can **operate, evolve, and trust for years**.
+
+This GitHub is where I experiment, document ideas, and build small tools related to architecture, automation, and developer productivity.
 
 ---
 
-## 🔧 Tech Stack
+## What I Spend Time On
+
+**System Architecture**
+
+Designing backend platforms and services that scale without becoming difficult to understand or operate.
+
+**Platform & Developer Tooling**
+
+Building reusable tools, templates, and automation that help engineers focus on solving problems rather than fighting infrastructure.
+
+**Distributed Systems**
+
+Exploring messaging patterns, modular architectures, and reliability patterns in real systems.
+
+**Architecture Documentation**
+
+Clear diagrams and written documentation are a big part of how teams reason about systems. I try to treat them as real engineering artifacts.
+
+---
+
+## How I Think About Software
+
+A few ideas that shape how I approach architecture:
+
+- Simple systems age better than clever ones  
+- Good developer experience improves delivery speed  
+- Architecture is mostly about **trade-offs and clarity**  
+- Documentation and diagrams are part of the codebase  
+- Platforms should remove friction, not introduce it  
+
+---
+
+## DevOps & Automation
+
+Even this profile README is partially automated.
+
+I like treating documentation and developer workflows the same way I treat application code: something that can be **versioned, automated, and improved over time**.
+
+Some of the automation behind this profile includes:
+
+- scripts that generate parts of the profile
+- GitHub Actions workflows
+- automated repository metrics
+- profile dashboard updates
+
+It’s a small example of how automation can simplify repetitive work.
+
+---
+
+## Tech I Work With
 
 <div align="center">
 
@@ -42,10 +97,16 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 
 <!-- backend / infra -->
 <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Messaging-8A2BE2" alt="Messaging" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+
+<br/>
+
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+<img src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
 
 <br/>
 
@@ -56,227 +117,172 @@ Most days I’m exploring new ideas in cloud, backend, and web-dev — and picki
 
 </div>
 
+**Backend**
+
+Spring Boot • REST APIs • Messaging • Modular architectures
+
+**Infrastructure**
+
+Docker • Kubernetes • CI/CD • GitHub Actions
+
+**Data**
+
+PostgreSQL • Redis • MySQL • MongoDB
+
+**Developer Tools**
+
+CLI utilities • automation scripts • engineering tooling
+
 ---
 
-## 🧩 Skills Matrix
+## Architecture Resources
 
-| Category | Skills |
-|---------|--------|
-| **Languages** | Java, Rust, Python, TypeScript |
-| **Backend** | Spring Boot, REST APIs, Microservices, Messaging |
-| **Cloud & Infra** | AWS, Docker, Kubernetes, CI/CD |
-| **Databases** | PostgreSQL, Redis, MySQL, MongoDB |
-| **Frontend (basic)** | React, TypeScript tooling |
-| **Dev Tools** | Git, GitHub Actions, VS Code |
-| **Architectural Skills** | Design patterns, modular design, scalable backend patterns |
+Some repositories here focus specifically on architecture and engineering practices.
+
+- **Design Patterns** : A practical collection of common software design patterns with working examples.
+- **Enterprise Spring Patterns**: Examples of production-oriented backend patterns around modularity, resilience, and observability.
+- **Draw.io Architecture Libraries**: Reusable diagram libraries for system design documentation and C4-style architecture diagrams.
 
 ---
 
-## 📂 Selected Projects
-
-A compact, GitHub-render-safe portfolio grid. Tags use `<kbd>` so they look good in both **light** and **dark** mode.
+## Selected Projects
 
 <table width="100%">
 <tr>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/design-patterns"><b style="font-size:16px;">🧩 design-patterns</b></a><br/>
+<a href="https://github.com/SaumilP/design-patterns"><b>🧩 design-patterns</b></a>
+
 <kbd>Architecture</kbd> <kbd>Java</kbd> <kbd>Patterns</kbd>
 
 <hr/>
 
-A production-oriented catalog of classic design patterns with enterprise-ready structure and extensibility guidance.
+A collection of classic design patterns implemented with practical examples and structure suitable for real projects.
 
 </td>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/enterprise-spring-patterns-and-recipes"><b style="font-size:16px;">☕ Spring Patterns & Recipes</b></a><br/>
-<kbd>Architecture</kbd> <kbd>Spring Boot</kbd> <kbd>Platform</kbd>
+<a href="https://github.com/SaumilP/enterprise-spring-patterns-and-recipes"><b>☕ Spring Patterns & Recipes</b></a>
+
+<kbd>Spring Boot</kbd> <kbd>Architecture</kbd>
 
 <hr/>
 
-Hands-on backend patterns for resilience, modular design, observability, and production-grade integration strategies.
+Backend patterns and approaches for building reliable Spring services.
 
 </td>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/spring-boot-starters"><b style="font-size:16px;">🏗️ Spring Boot Starters</b></a><br/>
-<kbd>Governance</kbd> <kbd>Java</kbd> <kbd>Standards</kbd>
+<a href="https://github.com/SaumilP/spring-boot-starters"><b>🏗 Spring Boot Starters</b></a>
+
+<kbd>Platform</kbd> <kbd>Java</kbd>
 
 <hr/>
 
-Platform-grade starters to standardize security, telemetry, error handling, and service scaffolding.
+Reusable starters intended to standardize common service capabilities across projects.
 
 </td>
 
 </tr>
+
 <tr>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/mastodon-toot-client"><b style="font-size:16px;">🦀 mastodon-toot-client</b></a><br/>
-<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>CLI</kbd>
+<a href="https://github.com/SaumilP/mastodon-toot-client"><b>🦀 mastodon-toot-client</b></a>
+
+<kbd>Rust</kbd> <kbd>CLI</kbd>
 
 <hr/>
 
-Dataset-driven automation CLI that renders dynamic content and publishes posts to Mastodon via API orchestration.
+A small automation CLI that generates and publishes posts to Mastodon.
 
 </td>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/gh-yule-gitlog-rs"><b style="font-size:16px;">🎄 gh-yule-gitlog-rs</b></a><br/>
-<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>gh-ext</kbd>
+<a href="https://github.com/SaumilP/gh-yule-gitlog-rs"><b>🎄 gh-yule-gitlog-rs</b></a>
+
+<kbd>Rust</kbd> <kbd>CLI</kbd>
 
 <hr/>
 
-A GitHub CLI extension that turns repository activity into a festive, animated terminal experience.
+A GitHub CLI extension that visualizes repository activity in the terminal.
 
 </td>
 
 <td width="33%" valign="top">
 
-<a href="https://github.com/SaumilP/changelog-gen"><b style="font-size:16px;">📝 changelog-gen</b></a><br/>
-<kbd>Release Engineering</kbd> <kbd>Rust</kbd> <kbd>SemVer</kbd>
+<a href="https://github.com/SaumilP/changelog-gen"><b>📝 changelog-gen</b></a>
+
+<kbd>Rust</kbd> <kbd>Release Engineering</kbd>
 
 <hr/>
 
-Changelog & release-notes generator with Conventional Commits, GitHub enrichment, templating, and SemVer workflows.
+Tooling for generating changelogs using Conventional Commits and semantic versioning.
 
 </td>
 
 </tr>
-<tr>
 
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/rust-learning-lab"><b style="font-size:16px;">🧪 rust-learning-lab</b></a><br/>
-<kbd>Learning</kbd> <kbd>Rust</kbd> <kbd>Hands-on</kbd>
-
-<hr/>
-
-A structured learning lab for engineers moving into safe systems programming, async fundamentals, and performance thinking.
-
-</td>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/drawio_libraries"><b style="font-size:16px;">📐 Draw.io Architecture Libraries</b></a><br/>
-<kbd>Assets</kbd> <kbd>Architecture</kbd> <kbd>C4</kbd>
-
-<hr/>
-
-Diagram libraries for clear, consistent, review-ready architecture visuals (C4, cloud, and platform components).
-
-</td>
-
-<td width="33%" valign="top">
-
-<b style="font-size:16px;">🚀 Next Flagship</b><br/>
-<kbd>Platform</kbd> <kbd>Cloud-Native</kbd> <kbd>Reliability</kbd>
-
-<hr/>
-
-Upcoming modular platform showcasing modern architecture, observability, and deployment governance.
-
-</td>
-
-</tr>
 </table>
 
 ---
-## 📈 GitHub Stats
+
+## Current Interests
+
+Things I’ve been exploring recently:
+
+- Rust for developer tooling  
+- Modular backend architectures  
+- Internal developer platforms  
+- Observability in distributed systems  
+- Improving engineering workflows with automation  
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-profile-trophy-kannan.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
+<img src="https://github-profile-trophy-kannan.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
 </p>
 
 <p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=tokyo-night&hide_border=true" 
-      media="(prefers-color-scheme: dark)" />
-    <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" 
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" />
-  </picture>
+<picture>
+<source srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=tokyo-night&hide_border=true" media="(prefers-color-scheme: dark)" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" />
+</picture>
 </p>
 
 ---
 
-## 📊 Engineering Snapshot
-
-<div align="center">
-
-<!-- Weekly snapshots (served as static files from gh-stats) -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-light.svg" alt="GitHub stats (weekly snapshot)" />
-</picture>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-light.svg" alt="Top languages (weekly snapshot)" />
-</picture>
-
-<br/>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-light.svg" alt="Top repos (weekly snapshot)" />
-</picture>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-light.svg" alt="Contribution streak (weekly snapshot)" />
-</picture>
-
-</div>
-
----
-
-## 📝 Learning Notes (Click to expand)
-
-<details>
-<summary>View ongoing notes & experiments</summary>
-
-### 🌱 Currently Learning
-- Rust async patterns  
-- Advanced Spring Boot modular architecture  
-- Clean Architecture & DDD  
-- GitHub Actions automations  
-- Container networking & distributed systems basics  
-
-### 🧪 Experiments
-- CLI tools in Rust  
-- Simple bots & automation scripts  
-- Local-first workflows  
-- Improving backend performance patterns  
-
-</details>
-
----
-
-## 🖥️ Now Operating On… (Developer Dashboard)
+## Developer Dashboard
 
 <!-- DASHBOARD:START -->
 | Metric | Value |
-|--------|-------|
-| 🚀 Repositories (public) | 64 |
-| 🌱 Recent Activity | WatchEvent on TM9657/flow-like (2026-02-21) |
-| 🧪 Last Updated | 2026-02-23 01:11 UTC |
+|------|------|
+| Public repositories | 64 |
+| Dashboard updates | automated |
+| Profile scripts | GitHub Actions |
 <!-- DASHBOARD:END -->
 
 ---
 
-## 📫 Connect
+## Connect
 
 <p align="center">
-  <a href="https://saumilp.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat-square&logo=githubpages&logoColor=white" alt="Website" />
-  </a>
+
+<a href="https://saumilp.github.io">
+<img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat-square&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+<i>I enjoy building systems that stay understandable as they grow.</i>
 </p>

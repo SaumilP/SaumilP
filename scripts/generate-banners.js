@@ -55,12 +55,12 @@ function drawBanner(theme, variantLabel) {
   ctx.font = 'bold 52px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
   ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
-  ctx.fillText('Saumil — An experienced professional', 60, 115);
+  ctx.fillText('Hi 👋 I\'m Saumil', 60, 115);
 
   // Subtitle
   ctx.fillStyle = theme.subtitle;
   ctx.font = '28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-  ctx.fillText('Cloud · Backend · Web Dev', 60, 165);
+  ctx.fillText('Software Architect • Distributed Systems • Platform Engineering', 60, 165);
 
   // Tagline bottom-right
   ctx.fillStyle = theme.accent2;
