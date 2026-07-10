@@ -14,7 +14,7 @@
 <h1 align="center">Hi 👋 I’m Saumil</h1>
 
 <p align="center">
-  <a href="https://saumilp.github.io" target="_blank">🌐 Portfolio</a>
+  <a href="https://saumilp.dev" target="_blank">🌐 Portfolio</a>
 </p>
 
 <p align="center">
@@ -267,7 +267,7 @@ Upcoming modular platform showcasing modern architecture, observability, and dep
 | Metric | Value |
 |--------|-------|
 | 🚀 Repositories (public) | 68 |
-| 🌱 Recent Activity | PushEvent on SaumilP/saumilp.github.io (2026-07-05) |
+| 🌱 Recent Activity | PushEvent on SaumilP/saumilp.dev (2026-07-05) |
 | 🧪 Last Updated | 2026-07-06 02:06 UTC |
 <!-- DASHBOARD:END -->
 
@@ -276,7 +276,7 @@ Upcoming modular platform showcasing modern architecture, observability, and dep
 ## 📫 Connect
 
 <p align="center">
-  <a href="https://saumilp.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Website-saumilp.github.io-181717?style=flat-square&logo=githubpages&logoColor=white" alt="Website" />
+  <a href="https://saumilp.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Website-saumilp.dev-181717?style=flat-square&logo=githubpages&logoColor=white" alt="Website" />
   </a>
 </p>
