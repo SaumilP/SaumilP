@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="162" viewBox="0 0 480 162" role="img" aria-label="Pinned Repo: drawio_libraries">
+  <title>Pinned Repo: drawio_libraries</title>
+  <defs>
+    <clipPath id="clip"><rect width="480" height="162" rx="14"/></clipPath>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2d63c8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2d63c8" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#2d63c8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2d63c8"/>
+      <stop offset="1" stop-color="#8250df"/>
+    </linearGradient>
+    <style>
+      .card { animation: rise 600ms cubic-bezier(.2,.8,.2,1) 480ms both; }
+      .t { animation: fade 500ms ease-out both; }
+      .c { animation: colin 450ms cubic-bezier(.2,.8,.2,1) both; }
+      .sweep { animation: sweep 7s ease-in-out 1980ms infinite; }
+      .trail { animation: trail 9s linear 480ms infinite; }
+      @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+      @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+      @keyframes colin { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @keyframes sweep { 0% { transform: translateX(-240px); } 35%, 100% { transform: translateX(480px); } }
+      @keyframes trail { to { stroke-dashoffset: -1354; } }
+      @media (prefers-reduced-motion: reduce) {
+        .card, .t, .c, .sweep, .trail { animation: none; }
+        .trail { display: none; }
+      }
+    </style>
+  </defs>
+  <g class="card">
+    <g clip-path="url(#clip)">
+
+  
+  <defs>
+    <style>
+      
+      @keyframes ghstatsGrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      .ghstats-bar-fill { transform-box: fill-box; transform-origin: left center; animation: ghstatsGrow 900ms cubic-bezier(.2,.8,.2,1) both; }
+      @media (prefers-reduced-motion: reduce) { .ghstats-bar-fill { animation: none; } }
+    
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="480" height="162" rx="14" fill="#ffffff" stroke="none" stroke-width="0" />
+<text class="t" style="animation-delay:730ms" x="18" y="34" fill="#0969da" font-size="16" font-weight="800" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">Pinned Repo</text><text class="t" style="animation-delay:785ms" x="18" y="54" fill="#57606a" font-size="12" font-weight="400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">@SaumilP</text><text class="t" style="animation-delay:840ms" x="18" y="64" fill="#24292f" font-size="14" font-weight="600" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">drawio_libraries</text><text class="t" style="animation-delay:895ms" x="18" y="84" fill="#57606a" font-size="12" font-weight="400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">Reusable draw.io libraries for clean, professional</text><text class="t" style="animation-delay:950ms" x="18" y="102" fill="#57606a" font-size="12" font-weight="400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">architecture diagrams.</text><text class="t" style="animation-delay:1005ms" x="18" y="146" fill="#57606a" font-size="12" font-weight="400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial">24  6 • Python</text>
+      <rect class="sweep" x="0" y="0" width="192" height="162" fill="url(#sheen)"/>
+    </g>
+    <rect class="trail" x="1" y="1" width="478" height="160" rx="13" fill="none" stroke="url(#glow)" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85" stroke-dasharray="70 1284"/>
+  </g>
+</svg>

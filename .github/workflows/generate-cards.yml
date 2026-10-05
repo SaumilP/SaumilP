@@ -1,0 +1,43 @@
+name: Generate Animated Cards
+
+on:
+  schedule:
+    - cron: "30 0 * * 1" # every Monday at 00:30 UTC, after the dashboard update
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-cards.js
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Fails the run (and emails you) if any gh-stats card cannot be fetched.
+      # Existing card files stay in place, so the profile keeps rendering.
+      - name: Fetch and animate cards
+        run: npm run generate:cards
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain assets/cards)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/cards
+            git commit -m "chore: refresh stat cards"
+            git push
+          else
+            echo "No changes to commit"
+          fi

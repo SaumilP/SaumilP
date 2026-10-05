@@ -13,17 +13,17 @@ Along with Markdown content, it includes several **automated workflows** that ke
 ### 1. Light/Dark Banner Generator
 
 **Purpose:**  
-Auto-generates both `profile-banner-light.png` and `profile-banner-dark.png`.
+Auto-generates both `profile-banner-light.svg` and `profile-banner-dark.svg`.
 
 **How it works:**  
-- `scripts/generate-banners.js` uses `node-canvas` to draw two versions.  
+- `scripts/generate-banners.js` is plain Node with no dependencies and writes two SVG versions.  
 - A GitHub Action (`generate-banners.yml`) runs weekly.  
 - The README uses a `<picture>` block to serve the correct banner based on theme.
 
 **Files:**  
 - scripts/generate-banners.js
-- assets/profile-banner-light.png
-- assets/profile-banner-dark.png
+- assets/profile-banner-light.svg
+- assets/profile-banner-dark.svg
 - .github/workflows/generate-banners.yml
 
 ---
@@ -49,6 +49,26 @@ README.md
 
 **Environment:**  
 Uses the built-in `${{ secrets.GITHUB_TOKEN }}`.
+
+---
+
+### 3. Animated Stat Cards
+
+**Purpose:**  
+Re-publishes the gh-stats cards (pins, overview, languages, impact timeline) as self-hosted SVGs with CSS animation.
+GitHub strips CSS and JS from READMEs but plays animations that live inside an `<img>` SVG, so the generator inlines each card into an animated wrapper.
+
+**How it works:**  
+- `scripts/generate-cards.js` fetches each card for dark and light themes and writes `assets/cards/<name>-<dark|light>.svg`.
+- Motion: staggered entrance, light sweep, travelling border glow, pop-in contribution cells. All of it is off under `prefers-reduced-motion`.
+- If any card cannot be fetched the run fails and the existing files stay in place.
+- `scripts/check-cards.js` checks that every local asset referenced in the README exists.
+
+**Files:**  
+- scripts/generate-cards.js
+- scripts/check-cards.js
+- .github/workflows/generate-cards.yml
+- .github/workflows/check-cards.yml
 
 ---
 
@@ -95,8 +115,8 @@ npm run update:dashboard
 ### 📦 Directory Overview
 ```bash
 /assets
-  profile-banner-light.png
-  profile-banner-dark.png
+  profile-banner-light.svg
+  profile-banner-dark.svg
 
 /scripts
   generate-banners.js
