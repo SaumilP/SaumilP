@@ -41,20 +41,11 @@ I'm a systems designer who stays hands-on. By day I work in software architectur
 | **API and integration design** | REST contracts, messaging, idempotency, versioning that does not break consumers |
 | **Platform and governance** | Shared starters, golden paths, CI/CD standards so teams spend their effort on the domain |
 
-<p align="center">
-  <sub>Day to day:</sub>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
+| Day to day | Tools I reach for |
+|------------|-------------------|
+| **Languages** | <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> |
+| **Frameworks and data** | <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" /> |
+| **Platform and delivery** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square" alt="AWS" /> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /> |
 
 ---
 
@@ -94,7 +85,7 @@ A place to prototype architectural decisions with working code before relying on
 
 ## Reference architecture and patterns
 
-<sub>Worked examples of decisions I would make in practice, kept runnable and documented. Start with <a href="https://github.com/SaumilP/design-patterns">design-patterns</a> for decisions in code and <a href="https://github.com/SaumilP/drawio_libraries">drawio_libraries</a> for diagrams.</sub>
+Worked examples of decisions I would make in practice, kept runnable and documented. Start with <a href="https://github.com/SaumilP/design-patterns">design-patterns</a> for decisions in code and <a href="https://github.com/SaumilP/drawio_libraries">drawio_libraries</a> for diagrams.
 
 <table>
 <tr>
@@ -129,7 +120,7 @@ A place to prototype architectural decisions with working code before relying on
 
 ## Hands-on builds
 
-<sub>Tools I build to stay close to the code: CLIs and automation, mostly in Rust.</sub>
+Tools I build to stay close to the code: CLIs and automation, mostly in Rust.
 
 <table>
 <tr>
@@ -182,7 +173,7 @@ A place to prototype architectural decisions with working code before relying on
 </picture>
 </p>
 
-<p align="center"><sub>Cards come from <a href="https://gh-stats-plum-five.vercel.app/">gh-stats</a> and are rebuilt weekly.</sub></p>
+<p align="center">Cards come from <a href="https://gh-stats-plum-five.vercel.app/">gh-stats</a> and are rebuilt weekly.</p>
 
 ---
 
