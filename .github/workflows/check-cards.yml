@@ -1,0 +1,33 @@
+name: Check Stat Cards
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday at 06:00 UTC, after the dashboard update
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/check-cards.js
+  pull_request:
+    paths:
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify every local asset referenced by README exists
+        run: npm run check:cards

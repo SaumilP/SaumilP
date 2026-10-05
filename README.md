@@ -1,282 +1,241 @@
 <!--
-  GitHub Profile README for Saumil — Final Merged Edition
+  GitHub Profile README for Saumil
+  Positioning: systems designer (software architecture by day) who stays hands-on after hours.
+  Generated pieces: assets/profile-banner-*.svg (scripts/generate-banners.js),
+  assets/cards/*.svg (scripts/generate-cards.js), DASHBOARD block (scripts/update-dashboard.js).
 -->
 
-<!-- Light/Dark Auto Banner -->
 <p align="center">
   <picture>
-    <source srcset="assets/profile-banner-dark.png" media="(prefers-color-scheme: dark)" />
-    <source srcset="assets/profile-banner-light.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="assets/profile-banner-light.png" alt="Saumil Profile Banner" />
+    <source srcset="assets/profile-banner-dark.svg" media="(prefers-color-scheme: dark)" />
+    <source srcset="assets/profile-banner-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="assets/profile-banner-light.svg" alt="Saumil — systems designer, hands-on" width="100%" />
   </picture>
 </p>
 
-<h1 align="center">Hi 👋 I’m Saumil</h1>
-
 <p align="center">
-  <a href="https://saumilp.dev" target="_blank">🌐 Portfolio</a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&center=true&vCenter=true&width=760&height=32&color=7AA2F7&lines=Systems+designer+%C2%B7+hands-on;Service+boundaries+%C2%B7+resilience+%C2%B7+platform+standards;Rust+async+%C2%B7+DDD+%C2%B7+distributed+systems" alt="Systems designer, hands-on. Service boundaries, resilience, platform standards." />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=900&lines=Software%20Engineering%20Enthusiast%20%7C%20Cloud%20%26%20Backend%20%26%20Web%20Dev;Building%20tools%20that%20help%20engineers%20work%20smarter" alt="Typing SVG" />
+  <a href="https://saumilp.dev"><img src="https://img.shields.io/badge/Portfolio-saumilp.dev-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1b26" alt="Portfolio" /></a>
+  <a href="https://github.com/SaumilP?tab=repositories"><img src="https://img.shields.io/github/followers/SaumilP?style=for-the-badge&logo=github&label=Followers&color=9ECE6A&labelColor=1a1b26" alt="GitHub followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=SaumilP&style=for-the-badge&label=Profile+views&color=BB9AF7&labelColor=1a1b26" alt="Profile views" />
+</p>
+
+I'm a systems designer who stays hands-on. By day I work in software architecture, designing systems and setting standards; after hours I build reference implementations and tools so my decisions stay grounded in working code.
+
+| When | What I do |
+|------|-----------|
+| **Day job** | Designing systems, recording decisions, setting standards, reviewing trade-offs. |
+| **After hours** | Reference implementations, patterns and Rust tooling. Everything on this profile is personal-time work, built to keep my judgment sharp. |
+
+---
+
+## What I focus on
+
+| Area | What it looks like in practice |
+|------|--------------------------------|
+| **Service design and boundaries** | Domain-driven design, modular monoliths before microservices, clear ownership and contracts |
+| **Resilience and observability** | Timeouts, retries and backpressure designed up front; traces, metrics and logs treated as part of the design |
+| **API and integration design** | REST contracts, messaging, idempotency, versioning that does not break consumers |
+| **Platform and governance** | Shared starters, golden paths, CI/CD standards so teams spend their effort on the domain |
+
+<p align="center">
+  <sub>Day to day:</sub>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ---
 
-I’m a software engineering enthusiast who enjoys building practical tools, backends, and small utilities that make software engineers’ lives easier.  
-Most days I’m exploring new ideas in cloud, backend, and web-dev — and picking up something new while solving problems.
+## How I design
+
+1. **Start from the boundary, not the framework.** Where responsibility ends matters more than which library sits inside it.
+2. **Write the decision down.** Context, options considered, and what we gave up. A short ADR beats a long memory.
+3. **Design for failure first.** Decide what happens when a dependency is slow or down before adding the feature.
+4. **Standardise the boring parts.** Starters and golden paths remove repeated decisions so the interesting ones get attention.
+5. **Prefer decisions that are cheap to reverse.** When unsure, pick the option that is easiest to change later.
 
 ---
 
-## 🔧 Tech Stack
+## Flagship: a reference platform for testing design decisions
 
-<div align="center">
+> **Status: in progress.** The design below is the target. Nothing here is shipped yet, and each decision is marked *proposed* until the ADR is written and the code backs it up.
 
-<!-- key languages -->
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+A place to prototype architectural decisions with working code before relying on them. It applies the principles above in a modular service built with my own [Spring Boot starters](https://github.com/SaumilP/spring-boot-starters), documented with [C4 diagrams](https://github.com/SaumilP/drawio_libraries), and run with observability and deployment governance from day one.
 
-<br/>
+```mermaid
+flowchart LR
+    client([Client]) --> gw[API Gateway]
+    gw --> orders[Orders module]
+    gw --> inventory[Inventory module]
+    orders --> pg[(PostgreSQL)]
+    inventory --> pg
+    orders -- outbox --> broker{Message broker}
+    broker --> notify[Notifications]
+    orders -.-> otel[OpenTelemetry]
+    inventory -.-> otel
+    notify -.-> otel
+    otel -.-> dash[Dashboards and alerts]
+```
 
-<!-- backend / infra -->
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+| ADR | Decision | Question it answers | Status |
+|-----|----------|---------------------|--------|
+| 001 | Modular monolith first, split later | When is a service boundary worth a network hop? | Proposed |
+| 002 | Transactional outbox for events | How do we publish events without losing or duplicating them? | Proposed |
+| 003 | OpenTelemetry through a shared starter | How do teams get consistent traces and metrics for free? | Proposed |
+| 004 | Policy checks in the deployment pipeline | How is governance enforced without slowing delivery? | Proposed |
 
-<br/>
-
-<!-- tools -->
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-
-</div>
-
----
-
-## 🧩 Skills Matrix
-
-| Category | Skills |
-|---------|--------|
-| **Languages** | Java, Rust, Python, TypeScript |
-| **Backend** | Spring Boot, REST APIs, Microservices, Messaging |
-| **Cloud & Infra** | AWS, Docker, Kubernetes, CI/CD |
-| **Databases** | PostgreSQL, Redis, MySQL, MongoDB |
-| **Frontend (basic)** | React, TypeScript tooling |
-| **Dev Tools** | Git, GitHub Actions, VS Code |
-| **Architectural Skills** | Design patterns, modular design, scalable backend patterns |
+**Planned artifacts:** C4 context and container diagrams, the four ADRs above, failure-mode notes (what breaks and how it degrades), and load-test results.
 
 ---
 
-## 📂 Selected Projects
+## Reference architecture and patterns
 
-A compact, GitHub-render-safe portfolio grid. Tags use `<kbd>` so they look good in both **light** and **dark** mode.
+<sub>Worked examples of decisions I would make in practice, kept runnable and documented. Start with <a href="https://github.com/SaumilP/design-patterns">design-patterns</a> for decisions in code and <a href="https://github.com/SaumilP/drawio_libraries">drawio_libraries</a> for diagrams.</sub>
 
-<table width="100%">
+<table>
 <tr>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/design-patterns"><b style="font-size:16px;">🧩 design-patterns</b></a><br/>
-<kbd>Architecture</kbd> <kbd>Java</kbd> <kbd>Patterns</kbd>
-
-<hr/>
-
-A production-oriented catalog of classic design patterns with enterprise-ready structure and extensibility guidance.
-
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/design-patterns"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-design-patterns-dark.svg" />
+  <img src="assets/cards/pin-design-patterns-light.svg" alt="design-patterns" width="100%" />
+</picture></a>
 </td>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/enterprise-spring-patterns-and-recipes"><b style="font-size:16px;">☕ Spring Patterns & Recipes</b></a><br/>
-<kbd>Architecture</kbd> <kbd>Spring Boot</kbd> <kbd>Platform</kbd>
-
-<hr/>
-
-Hands-on backend patterns for resilience, modular design, observability, and production-grade integration strategies.
-
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/enterprise-spring-patterns-and-recipes"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-enterprise-spring-patterns-and-recipes-dark.svg" />
+  <img src="assets/cards/pin-enterprise-spring-patterns-and-recipes-light.svg" alt="enterprise-spring-patterns-and-recipes" width="100%" />
+</picture></a>
 </td>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/spring-boot-starters"><b style="font-size:16px;">🏗️ Spring Boot Starters</b></a><br/>
-<kbd>Governance</kbd> <kbd>Java</kbd> <kbd>Standards</kbd>
-
-<hr/>
-
-Platform-grade starters to standardize security, telemetry, error handling, and service scaffolding.
-
-</td>
-
 </tr>
 <tr>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/mastodon-toot-client"><b style="font-size:16px;">🦀 mastodon-toot-client</b></a><br/>
-<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>CLI</kbd>
-
-<hr/>
-
-Dataset-driven automation CLI that renders dynamic content and publishes posts to Mastodon via API orchestration.
-
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/spring-boot-starters"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-spring-boot-starters-dark.svg" />
+  <img src="assets/cards/pin-spring-boot-starters-light.svg" alt="spring-boot-starters" width="100%" />
+</picture></a>
 </td>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/gh-yule-gitlog-rs"><b style="font-size:16px;">🎄 gh-yule-gitlog-rs</b></a><br/>
-<kbd>Tooling</kbd> <kbd>Rust</kbd> <kbd>gh-ext</kbd>
-
-<hr/>
-
-A GitHub CLI extension that turns repository activity into a festive, animated terminal experience.
-
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/drawio_libraries"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-drawio_libraries-dark.svg" />
+  <img src="assets/cards/pin-drawio_libraries-light.svg" alt="drawio_libraries" width="100%" />
+</picture></a>
 </td>
-
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/changelog-gen"><b style="font-size:16px;">📝 changelog-gen</b></a><br/>
-<kbd>Release Engineering</kbd> <kbd>Rust</kbd> <kbd>SemVer</kbd>
-
-<hr/>
-
-Changelog & release-notes generator with Conventional Commits, GitHub enrichment, templating, and SemVer workflows.
-
-</td>
-
 </tr>
+</table>
+
+## Hands-on builds
+
+<sub>Tools I build to stay close to the code: CLIs and automation, mostly in Rust.</sub>
+
+<table>
 <tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/mastodon-toot-client"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-mastodon-toot-client-dark.svg" />
+  <img src="assets/cards/pin-mastodon-toot-client-light.svg" alt="mastodon-toot-client" width="100%" />
+</picture></a>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/SaumilP/gh-yule-gitlog-rs"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/pin-gh-yule-gitlog-rs-dark.svg" />
+  <img src="assets/cards/pin-gh-yule-gitlog-rs-light.svg" alt="gh-yule-gitlog-rs" width="100%" />
+</picture></a>
+</td>
+</tr>
+</table>
 
-<td width="33%" valign="top">
+<p align="center">
+  More: <a href="https://github.com/SaumilP/changeloggen-cli">changeloggen-cli</a> ·
+  <a href="https://github.com/SaumilP/rust-learning-lab">rust-learning-lab</a> ·
+  <a href="https://github.com/SaumilP?tab=repositories">all repositories</a>
+</p>
 
-<a href="https://github.com/SaumilP/rust-learning-lab"><b style="font-size:16px;">🧪 rust-learning-lab</b></a><br/>
-<kbd>Learning</kbd> <kbd>Rust</kbd> <kbd>Hands-on</kbd>
+---
 
-<hr/>
+## Activity
 
-A structured learning lab for engineers moving into safe systems programming, async fundamentals, and performance thinking.
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/stats-dark.svg" />
+  <img src="assets/cards/stats-light.svg" alt="GitHub overview" width="100%" />
+</picture>
+</td>
+<td width="50%" align="center" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/languages-dark.svg" />
+  <img src="assets/cards/languages-light.svg" alt="Top languages" width="100%" />
+</picture>
+</td>
+</tr>
+</table>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/impact-dark.svg" />
+  <img src="assets/cards/impact-light.svg" alt="Contributions over the past year" width="100%" />
+</picture>
+</p>
+
+<p align="center"><sub>Cards come from <a href="https://gh-stats-plum-five.vercel.app/">gh-stats</a> and are rebuilt weekly.</sub></p>
+
+---
+
+## Currently exploring
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Design questions I'm testing**
+- Context boundaries and aggregates in DDD
+- Consistency and messaging trade-offs in distributed systems
+- Observability-led design
+- Clean Architecture in modular Spring Boot
 
 </td>
+<td width="50%" valign="top">
 
-<td width="33%" valign="top">
-
-<a href="https://github.com/SaumilP/drawio_libraries"><b style="font-size:16px;">📐 Draw.io Architecture Libraries</b></a><br/>
-<kbd>Assets</kbd> <kbd>Architecture</kbd> <kbd>C4</kbd>
-
-<hr/>
-
-Diagram libraries for clear, consistent, review-ready architecture visuals (C4, cloud, and platform components).
+**Engineering I'm practising**
+- Rust async patterns
+- CLI tools and automation in Rust
+- Local-first workflows
+- Backend performance patterns
 
 </td>
-
-<td width="33%" valign="top">
-
-<b style="font-size:16px;">🚀 Next Flagship</b><br/>
-<kbd>Platform</kbd> <kbd>Cloud-Native</kbd> <kbd>Reliability</kbd>
-
-<hr/>
-
-Upcoming modular platform showcasing modern architecture, observability, and deployment governance.
-
-</td>
-
 </tr>
 </table>
 
 ---
-## 📈 GitHub Stats
 
-<p align="center">
-  <img src="https://github-profile-trophy-kannan.vercel.app/?username=SaumilP&theme=onedark&no-frame=true&row=1&margin-w=15" />
-</p>
-
-<p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=tokyo-night&hide_border=true" 
-      media="(prefers-color-scheme: dark)" />
-    <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" 
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaumilP&theme=github-light&hide_border=true" />
-  </picture>
-</p>
-
----
-
-## 📊 Engineering Snapshot
-
-<div align="center">
-
-<!-- Weekly snapshots (served as static files from gh-stats) -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/stats-light.svg" alt="GitHub stats (weekly snapshot)" />
-</picture>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/languages-light.svg" alt="Top languages (weekly snapshot)" />
-</picture>
-
-<br/>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/repos-light.svg" alt="Top repos (weekly snapshot)" />
-</picture>
-
-<picture>
-  <source srcset="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-dark.svg" media="(prefers-color-scheme: dark)" />
-  <img src="https://raw.githubusercontent.com/SaumilP/gh-stats/refs/heads/main/public/cards/streak-light.svg" alt="Contribution streak (weekly snapshot)" />
-</picture>
-
-</div>
-
----
-
-## 📝 Learning Notes (Click to expand)
-
-<details>
-<summary>View ongoing notes & experiments</summary>
-
-### 🌱 Currently Learning
-- Rust async patterns  
-- Advanced Spring Boot modular architecture  
-- Clean Architecture & DDD  
-- GitHub Actions automations  
-- Container networking & distributed systems basics  
-
-### 🧪 Experiments
-- CLI tools in Rust  
-- Simple bots & automation scripts  
-- Local-first workflows  
-- Improving backend performance patterns  
-
-</details>
-
----
-
-## 🖥️ Now Operating On… (Developer Dashboard)
+## Developer dashboard
 
 <!-- DASHBOARD:START -->
 | Metric | Value |
 |--------|-------|
 | 🚀 Repositories (public) | 61 |
 | 🌱 Recent Activity | DeleteEvent on SaumilP/gh-stats (2026-09-14) |
-| 🧪 Last Updated | 2026-10-05 02:56 UTC |
+| 🧪 Last Updated | 2026-10-05 19:18 UTC |
 <!-- DASHBOARD:END -->
 
 ---
 
-## 📫 Connect
+## Connect
 
 <p align="center">
-  <a href="https://saumilp.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Website-saumilp.dev-181717?style=flat-square&logo=githubpages&logoColor=white" alt="Website" />
-  </a>
+  <a href="https://saumilp.dev"><img src="https://img.shields.io/badge/Website-saumilp.dev-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1b26" alt="Website" /></a>
+  <a href="https://github.com/SaumilP"><img src="https://img.shields.io/badge/GitHub-SaumilP-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
