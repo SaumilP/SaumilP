@@ -70,24 +70,16 @@ I'm a systems designer who stays hands-on. By day I work in software architectur
 
 ## Flagship: a reference platform for testing design decisions
 
-> **Status: in progress.** The design below is the target. Nothing here is shipped yet, and each decision is marked *proposed* until the ADR is written and the code backs it up.
+> **Status: in progress.** The design below is the target. Nothing here is shipped yet, and each decision is marked Proposed until the ADR is written and the code backs it up.
 
 A place to prototype architectural decisions with working code before relying on them. It applies the principles above in a modular service built with my own [Spring Boot starters](https://github.com/SaumilP/spring-boot-starters), documented with [C4 diagrams](https://github.com/SaumilP/drawio_libraries), and run with observability and deployment governance from day one.
 
-```mermaid
-flowchart LR
-    client([Client]) --> gw[API Gateway]
-    gw --> orders[Orders module]
-    gw --> inventory[Inventory module]
-    orders --> pg[(PostgreSQL)]
-    inventory --> pg
-    orders -- outbox --> broker{Message broker}
-    broker --> notify[Notifications]
-    orders -.-> otel[OpenTelemetry]
-    inventory -.-> otel
-    notify -.-> otel
-    otel -.-> dash[Dashboards and alerts]
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/reference-architecture-dark.svg" />
+    <img src="assets/reference-architecture-light.svg" alt="Reference platform: a client calls an API gateway that routes to Orders and Inventory modules sharing PostgreSQL. Orders publishes events through an outbox to a message broker feeding Notifications. Modules emit traces and metrics to OpenTelemetry, which feeds dashboards." width="100%" />
+  </picture>
+</p>
 
 | ADR | Decision | Question it answers | Status |
 |-----|----------|---------------------|--------|

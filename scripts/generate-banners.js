@@ -154,6 +154,71 @@ ${diagram(t)}
 `;
 }
 
+// Static version of the flagship architecture diagram. GitHub's mobile app does
+// not render Mermaid, so the README uses this SVG instead. It is drawn narrow and
+// top-to-bottom so the text stays readable when scaled to a phone screen.
+function referenceArchitecture(t) {
+  const W = 640;
+  const H = 584;
+  const edge = (d, dashed = false) =>
+    `<path d="${d}" fill="none" stroke="${dashed ? t.accent2 : t.accent}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ${
+      dashed ? 'stroke-dasharray="6 7" class="flow"' : ''
+    } marker-end="url(#${dashed ? 'arrow-t' : 'arrow'})"/>`;
+  const box = (cx, cy, w, label) => {
+    const x = cx - w / 2;
+    const y = cy - 24;
+    return `<g>
+      <rect x="${x}" y="${y}" width="${w}" height="48" rx="12" fill="${t.chipBg}" stroke="${t.chipBorder}" stroke-width="1.5"/>
+      <text x="${cx}" y="${cy + 6}" text-anchor="middle" font-family="${MONO}" font-size="16" font-weight="700" fill="${t.chipText}">${label}</text>
+    </g>`;
+  };
+  const marker = (id, color) => `<marker id="${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9 z" fill="${color}"/>
+    </marker>`;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t d">
+  <title id="t">Reference platform architecture</title>
+  <desc id="d">A client calls an API gateway. The gateway routes to Orders and Inventory modules, which share a PostgreSQL database. Orders publishes events through an outbox to a message broker, which feeds Notifications. Modules emit traces and metrics to OpenTelemetry, which feeds dashboards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${t.bg0}"/>
+      <stop offset="1" stop-color="${t.bg1}"/>
+    </linearGradient>
+    ${marker('arrow', t.accent)}
+    ${marker('arrow-t', t.accent2)}
+  </defs>
+  <style>
+    .flow { animation: flow 1.6s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -26; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+  <rect width="${W}" height="${H}" rx="16" fill="url(#bg)" stroke="${t.chipBorder}"/>
+
+  ${edge('M320 68 V100')}
+  ${edge('M320 148 V176 H190 V200')}
+  ${edge('M320 148 V176 H450 V200')}
+  ${edge('M190 248 V324 H245')}
+  ${edge('M450 248 V324 H395')}
+  ${edge('M105 224 H70 V404')}
+  <text x="62" y="330" text-anchor="end" font-family="${MONO}" font-size="13" fill="${t.muted}">outbox</text>
+  ${edge('M110 452 V484')}
+  ${edge('M535 224 H592 V428 H575', true)}
+  ${edge('M500 452 V484', true)}
+  <text x="20" y="566" font-family="${MONO}" font-size="13" fill="${t.muted}">Solid: requests and events. Green: telemetry.</text>
+
+  ${box(320, 44, 120, 'Client')}
+  ${box(320, 124, 170, 'API Gateway')}
+  ${box(190, 224, 170, 'Orders module')}
+  ${box(450, 224, 170, 'Inventory module')}
+  ${box(320, 324, 150, 'PostgreSQL')}
+  ${box(110, 428, 150, 'Message broker')}
+  ${box(110, 508, 150, 'Notifications')}
+  ${box(500, 428, 150, 'OpenTelemetry')}
+  ${box(500, 508, 150, 'Dashboards')}
+</svg>
+`;
+}
+
 function main() {
   const assetsDir = path.join(__dirname, '..', 'assets');
   fs.mkdirSync(assetsDir, { recursive: true });
@@ -161,6 +226,9 @@ function main() {
     const file = path.join(assetsDir, `profile-banner-${t.name}.svg`);
     fs.writeFileSync(file, banner(t), 'utf8');
     console.log('Generated:', file);
+    const diagramFile = path.join(assetsDir, `reference-architecture-${t.name}.svg`);
+    fs.writeFileSync(diagramFile, referenceArchitecture(t), 'utf8');
+    console.log('Generated:', diagramFile);
   }
 }
 
