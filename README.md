@@ -211,7 +211,7 @@ Tools I build to stay close to the code: CLIs and automation, mostly in Rust.
 |--------|-------|
 | 🚀 Repositories (public) | 60 |
 | 🌱 Recent Activity | No recent public activity |
-| 🧪 Last Updated | 2026-11-09 03:35 UTC |
+| 🧪 Last Updated | 2026-11-23 04:39 UTC |
 <!-- DASHBOARD:END -->
 
 ---
